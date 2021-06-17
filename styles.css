@@ -3,7 +3,6 @@ body,
 html {
     height: 100%;
     padding-top: 20px;
-    max-width: 1440px;
 }
 
 .navbar {
@@ -30,7 +29,7 @@ html {
 .hero {
     color: white;
     height: 100vh;
-    padding: 150px 250px 0px 250px;
+    padding-top: 150px;
 }
 
 .hero h1 {
