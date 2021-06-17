@@ -3,11 +3,20 @@ body,
 html {
     height: 100%;
     padding-top: 20px;
+    max-width: 1440px;
+}
+
+.navbar {
+    height: 90px;
+}
+
+.card {
+    max-width: 300px;
 }
 
 .parallax {
     /* The image used */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://www.zurich.com/-/media/project/zurich/dotcom/media/magazine/2020/images/stage-construction-site.jpg?h=1250&la=en&w=2500&rev=131eb9d7dd544a998f988d6dc377594f&hash=E73E34B9EAE574B59321F090229F16A6");
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://www.zurich.com/-/media/project/zurich/dotcom/media/magazine/2020/images/stage-construction-site.jpg?h=1250&la=en&w=2500&rev=131eb9d7dd544a998f988d6dc377594f&hash=E73E34B9EAE574B59321F090229F16A6");
     background-color: rgba(0, 0, 0, 0);
     /* Full height */
     height: 100vh;
@@ -21,7 +30,7 @@ html {
 .hero {
     color: white;
     height: 100vh;
-    padding: 200px 250px 0px 250px;
+    padding: 150px 250px 0px 250px;
 }
 
 .hero h1 {
@@ -30,4 +39,11 @@ html {
     letter-spacing: 7px;
     word-spacing: 10px;
     font-size: 4rem;
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
