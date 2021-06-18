@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 body,
 html {
     height: 100%;
@@ -36,7 +37,6 @@ h5 {
     background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://www.zurich.com/-/media/project/zurich/dotcom/media/magazine/2020/images/stage-construction-site.jpg?h=1250&la=en&w=2500&rev=131eb9d7dd544a998f988d6dc377594f&hash=E73E34B9EAE574B59321F090229F16A6");
     background-color: rgba(0, 0, 0, 0);
     /* Full height */
-    height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -81,5 +81,5 @@ h5 {
 .about-us {
     z-index: -1;
     overflow: hidden;
-    max-height: 900px;
+    max-height: 100vh;
 }
