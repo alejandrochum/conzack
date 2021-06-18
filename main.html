@@ -16,15 +16,17 @@
     <title>Conzack</title>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">CONZACK</a>
+        <div class="container-fluid px-0">
+            <div class="container text-center d-flex" style="width: 300px; height: 90px; background-color:gray; align-items: center; justify-content: center;">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="./CONZACK_LOGO.png" alt=""></a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse me-4" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Servicios</a>
@@ -57,12 +59,14 @@
     <div class="parallax" style="height: 200px;"></div>
 
     <div id="core-values" class="container section">
-        <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
+        <div class="row">
             <div class="col-4">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h4 class="card-title">Misión</h4>
+                <div class="card h-100" style="overflow: hidden;" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                    <div class="card-img-top d-flex justify-content-center" style="overflow: hidden;">
+                        <img src="./mission.jpeg" height="270px" class="center-img rellax" data-rellax-speed="-1">
+                    </div>
+                    <div class="card-body text-center" style="background-color: gray;">
+                        <h4 class="card-title" style="overflow: hidden;">Misión</h4>
                         <div class="myBorder mb-4 mx-auto"></div>
                         <p class="card-text">Ayudar a nuestros clientes a mejorar su infraestructura empleando estrictos procedimientos de calidad en nuestro procesos, a disminuir el impacto ambiental de forma sostenible, apoyar a nuestra sociedad a través de la capacitación
                             y dando oportunidades de empleo a personas con talento</p>
@@ -70,8 +74,8 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
+                    <img src="./vision.jpeg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h4 class="card-title">Visión</h4>
                         <div class="myBorder mb-4 mx-auto"></div>
@@ -80,8 +84,8 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="200">
+                    <img src="./values.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h4 class="card-title">Valores</h4>
                         <div class="myBorder mb-4 mx-auto"></div>
@@ -90,43 +94,17 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="card-group" data-aos="fade-up" data-aos-duration="2000">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h4 class="card-title">Misión</h4>
-                    <div class="myBorder mb-4 mx-auto"></div>
-                    <p class="card-text">Ayudar a nuestros clientes a mejorar su infraestructura empleando estrictos procedimientos de calidad en nuestro procesos, a disminuir el impacto ambiental de forma sostenible, apoyar a nuestra sociedad a través de la capacitación
-                        y dando oportunidades de empleo a personas con talento</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h4 class="card-title">Visión</h4>
-                    <div class="myBorder mb-4 mx-auto"></div>
-                    <p class="card-text">Establecer a CONZACK como principal empresa de servicio de ingeniería para la industria de la generación en América Latina, manteniendo nuestros principios y valores inflexibles mientras crecemos</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h4 class="card-title">Valores</h4>
-                    <div class="myBorder mb-4 mx-auto"></div>
-                    <p class="card-text">Servicio de clase mundial, servicio de administración de proyectos, proyectos de corta duración, experiencia en construcción, operación y mantenimiento. Cobertura global, proveedor único de multiples soluciones</p>
-                </div>
-            </div>
-        </div> -->
     </div>
 
     <div class="parallax1"></div>
 
     <div class="container-fluid about-us" style="z-index: -10; overflow: hidden;">
         <div class="row">
-            <div class="col-6 ps-5 pt-5">
-                <h4>Acerca de Nosotros</h4>
+            <div class="col-6" style="padding-left: 20%;">
+                <div class="my-5">
+                    <h2>Acerca de Nosotros</h2>
+                    <div class="myBorder mt-3"></div>
+                </div>
                 <p>CONZACK es una empresa privada dedicada a la comercialización de materiales y equipos eléctricos de alta, media y baja tensión; subestaciones móviles; además de las grúas y carros canasta. Es una empresa internacional líder en consultoría,
                     ingeniería y construcción, con casos de éxito en LATINO AMERICA, CHINA, PANAMÁ y ESTADOS UNIDOS; con amplia experiencia en la gestión completa de proyectos, integración de sistemas, ingeniería de detalle y apoyo técnico de campo, para
                     clientes privados y comerciales en todo el mundo con un índice de satisfacción del 100% desde hace más de 40 años. Desde la planificación y diseño, hasta la puesta en marcha y mantenimiento, nuestros clientes tienen la garantía de
@@ -141,7 +119,7 @@
         </div>
     </div>
 
-    <div class="container section"></div>
+    <!-- <div class="container section"></div> -->
 
 
     <!-- Optional JavaScript; choose one of the two! -->
