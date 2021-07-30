@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .card {
-    max-width: 300px;
+    /* width: 300px; */
     border: none;
 }
 
@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5 {
 
 .section {
     padding-top: 80px;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     padding-bottom: 80px;
 }
 
