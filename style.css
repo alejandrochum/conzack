@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;600;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 body, html {
+    padding-top: 40px;
     height: 100%;
-    padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
@@ -21,6 +21,28 @@ h1, h2, h3, h4, h5 {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     word-spacing: 10px;
+}
+
+.navbar {
+    height: 90px;
+    background-color: #333F50;
+}
+
+.nav-logo {
+    background-color: white;
+    height: 90px;
+    width: 400px;
+    border-right: 10px solid lightgray;
+}
+
+.btn-primary {
+    background-color: #333F50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #333F50;
+    box-shadow: 0px 0px 0px 2px #333F50;
 }
 
 .myBorder {
@@ -42,19 +64,6 @@ h1, h2, h3, h4, h5 {
 
 .title h1 {
     font-size: 3.1rem;
-}
-
-.navbar {
-    height: 90px;
-    background-color: #333F50;
-}
-
-.navbar a {
-    color: #F6F8FF;
-}
-
-.navbar a:active, .navbar a:hover {
-    color: white;
 }
 
 .card {
@@ -95,7 +104,7 @@ h1, h2, h3, h4, h5 {
 
 .parallax1 {
     /* The image used */
-    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("./parallaximg2.png");
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("./IMGL3509.JPG");
     background-color: rgba(0, 0, 0, 0);
     /* Full height */
     height: 400px;
@@ -109,7 +118,7 @@ h1, h2, h3, h4, h5 {
 .hero {
     color: white;
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .hero h1 {
@@ -131,22 +140,33 @@ h1, h2, h3, h4, h5 {
 .about-us {
     z-index: -1;
     overflow: hidden;
-    max-height: 100vh;
     padding: 0;
 }
 
 .stat {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     color: white;
     background-color: #333F50;
 }
 
 .stat h1 {
-    font-size: 3.5rem;
+    font-size: 1.2rem;
     color: white;
+}
+
+.stat-small {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #333F50;
+}
+
+.stat-small h1 {
+    color: white;
+    font-size: 2.5rem;
 }
 
 .bg-clear {
@@ -157,7 +177,40 @@ h1, h2, h3, h4, h5 {
     background-color: #F5F5F5;
 }
 
-.services-img{
+.services-img {
     height: 500px;
     object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .hero h1 {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 7px;
+        word-spacing: 10px;
+        line-height: 4rem;
+        font-size: 2.3rem;
+    }
+    .stat {
+        display: none;
+    }
+
+    .nav-logo {
+        background-color: white;
+        height: 90px;
+        width: 250px;
+        border-right: 10px solid lightgray;
+    }
+
+    .nav-logo img {
+        height: 45px;
+    }
+}
+
+@media (min-width: 576px) {
+    .stat-small {
+        display: none;
+    }
+    
 }
