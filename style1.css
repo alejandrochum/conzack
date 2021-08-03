@@ -97,7 +97,7 @@ h5 {
 
 .parallax {
     /* The image used */
-    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://www.zurich.com/-/media/project/zurich/dotcom/media/magazine/2020/images/stage-construction-site.jpg?h=1250&la=en&w=2500&rev=131eb9d7dd544a998f988d6dc377594f&hash=E73E34B9EAE574B59321F090229F16A6");
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("./IMGL3556.JPG");
     background-color: rgba(0, 0, 0, 0);
     /* Full height */
     /* Create the parallax scrolling effect */
@@ -170,11 +170,13 @@ h5 {
 
 .video-container {
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 
 .my-video {
-    position: relative;
+    z-index: -1;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     min-width: 100%;
