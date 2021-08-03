@@ -11,7 +11,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="mystyle1.css">
 
     <title>Conzack</title>
 
@@ -43,15 +43,15 @@
 
 <body>
 
-    <div class="video-container" style="background-image: radial-gradient(rgba(1,1,1,0.4) 40%, rgba(0,0,0,0));">
+    <div id="home" class="video-container" style="background-image: radial-gradient(rgba(1,1,1,0.4) 40%, rgba(0,0,0,0));">
         <video autoplay muted loop class="my-video" id="myvideo">
             <source src="./Conzackvideo1.mp4" type="video/mp4">
         </video>
         <div class="container hero text-center">
             <h1 class="">LÍDERES EN CALIDAD DE INFRAESTRUCTURA Y CONSTRUCCIÓN</h1>
             <div class="animate__animated animate__pulse animate__infinite animate__slow">
-                <a href="#core-values" style="color: white; font-size: 5rem;"><i
-                        class="bi bi-chevron-compact-down"></i></a>
+                <!-- <a href="#core-values" style="color: white; font-size: 5rem;"><i
+                        class="bi bi-chevron-compact-down"></i></a> -->
             </div>
         </div>
     </div>
@@ -319,6 +319,7 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -331,12 +332,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js " integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT " crossorigin="anonymous "></script>
     -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./rellax.min.js "></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $('a[href^="#"]').on('click', function(e) {
-            // e.preventDefault();
+            //e.preventDefault();
             var target = this.hash,
                 $target = $(target);
             $('html, body').stop().animate({
