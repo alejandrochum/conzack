@@ -4,11 +4,26 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 body,
 html {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     padding-top: 40px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 p {
